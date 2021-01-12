@@ -48,7 +48,7 @@ struct reverseScroll: View{
                             }
                             else
                             {
-                                bubbleView(message: i.msg, myMsg: false, user: i.name)
+                                bubbleView(message: i.msg, myMsg: false, user: i.senderName)
                             }
                         }
                     }.frame(width: reader.size.width)

@@ -12,4 +12,5 @@ struct dataType: Identifiable {
     var id: String
     var name: String
     var msg: String
+    var senderName: String
 }

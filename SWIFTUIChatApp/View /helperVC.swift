@@ -33,3 +33,12 @@ final class KeyboardResponder: ObservableObject {
         currentHeight = 0
     }
 }
+
+
+
+
+public func splitAtFirst(str: String, delimiter: String) -> (String)? {
+   guard let lowerIndex = (str.range(of: delimiter)?.lowerBound) else { return nil }
+   let firstPart: String = .init(str.prefix(upTo: lowerIndex))
+   return firstPart
+}

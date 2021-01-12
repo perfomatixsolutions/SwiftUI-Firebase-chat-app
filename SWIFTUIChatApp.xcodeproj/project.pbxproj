@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		142AC73B25A32BF200789522 /* keyBoardHandlerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC73A25A32BF200789522 /* keyBoardHandlerVC.swift */; };
+		142AC73B25A32BF200789522 /* helperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC73A25A32BF200789522 /* helperVC.swift */; };
 		142AC73D25A3316200789522 /* loginM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC73C25A3316200789522 /* loginM.swift */; };
 		142AC73F25A3326800789522 /* bubbleViewShapeRenderingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC73E25A3326800789522 /* bubbleViewShapeRenderingVC.swift */; };
 		142AC74125A332B000789522 /* chatMessageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC74025A332B000789522 /* chatMessageVM.swift */; };
@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		142AC73A25A32BF200789522 /* keyBoardHandlerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyBoardHandlerVC.swift; sourceTree = "<group>"; };
+		142AC73A25A32BF200789522 /* helperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperVC.swift; sourceTree = "<group>"; };
 		142AC73C25A3316200789522 /* loginM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginM.swift; sourceTree = "<group>"; };
 		142AC73E25A3326800789522 /* bubbleViewShapeRenderingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubbleViewShapeRenderingVC.swift; sourceTree = "<group>"; };
 		142AC74025A332B000789522 /* chatMessageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatMessageVM.swift; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 				142AC74725A3529400789522 /* messageBubbleViewVC.swift */,
 				142AC73E25A3326800789522 /* bubbleViewShapeRenderingVC.swift */,
 				1491DF9B2589CED100C43FDC /* chatListVC.swift */,
-				142AC73A25A32BF200789522 /* keyBoardHandlerVC.swift */,
+				142AC73A25A32BF200789522 /* helperVC.swift */,
 			);
 			path = "View ";
 			sourceTree = "<group>";
@@ -475,7 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142AC73B25A32BF200789522 /* keyBoardHandlerVC.swift in Sources */,
+				142AC73B25A32BF200789522 /* helperVC.swift in Sources */,
 				142AC73F25A3326800789522 /* bubbleViewShapeRenderingVC.swift in Sources */,
 				142AC74525A3516A00789522 /* chatM.swift in Sources */,
 				14AD15C5258780780016FA37 /* AppDelegate.swift in Sources */,

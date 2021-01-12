@@ -30,10 +30,14 @@ class observer: ObservableObject{
                     let name = i.document.get("name") as! String
                     let id = i.document.documentID
                     let msg = i.document.get("msg") as! String
-                    self.msgs.append(dataType(id: id, name: name, msg: msg))
+                    let senderName = splitAtFirst(str: name, delimiter: "@")
+                    self.msgs.append(dataType(id: id, name: name, msg: msg, senderName: senderName ?? ""))
                 }
             }
         }
     }
 }
+
+
+
 
